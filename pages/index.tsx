@@ -64,7 +64,7 @@ function ProjectCard(opts: { img: string, title: React.ReactNode, desc: React.Re
   return (
     isMobile ?
       (<Card css={{ backgroundColor: "$gray800", alignItems: "start", pt: "20px" }}>
-        <img src={opts.img} style={{ height: "50px" }} />
+        <img alt="project icon" src={opts.img} style={{ height: "50px" }} />
         <div style={{ height: "20px" }}></div>
         <Col css={{ display: "flex", flexDirection: "column", justifyContent: "center", height: "100%" }}>
           <Spacer />
@@ -75,7 +75,7 @@ function ProjectCard(opts: { img: string, title: React.ReactNode, desc: React.Re
       </Card>) : (
         <Card css={{ backgroundColor: "$gray800", height: "120px", alignItems: "start", pl: "10px" }}>
           <Row css={{ height: "100%", gap: "20px", alignItems: "center" }}>
-            <img src={opts.img} style={{ width: "50px" }}></img>
+            <img alt="project icon" src={opts.img} style={{ width: "50px" }}></img>
             <Col css={{ display: "flex", flexDirection: "column", height: "100%", justifyContent: "center", pt: "10px" }}>
               <Spacer />
               <Text weight="bold" size={20}>{opts.title}</Text>
