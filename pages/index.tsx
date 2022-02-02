@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>BlueLogic</title>
-        <meta name="description" content="Next-generation" />
+        <meta name="description" content="Modern digital infrastructure for machines and humans." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
